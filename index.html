@@ -8,53 +8,52 @@
 </head>
 
 <body>
-    <div id="upperBar" class="hidden">
-        <span id="nameLabel">Hola </span>
+
+    <div id="upperBar" class="hiden">
+        <span id="nameLabel">Hola, </span>
         <span id="name"></span>
     </div>
-    <!--Agregamos formulario de ingreso de nombre usuario-->
     <br>
-    <div id="enterName">
-        <span>Ingresa tu nombre</span>
-        <input id="casillaNombre" type="text">
-    </br>
-    <button id="botonSiguiente" >Ingresar</button>
+    <!--Estamos agregando el formulario donde vamos a pedir el nombre del usuario-->
+    <div id="formuGetName" >
+        <span>Ingrese su Nombre:</span>
+        <input id="txtName" type="text" />
+        </br>
+        <button id="btnGetName" >Ingresar</button>
     </div>
-    <!--Agregar pregunta quieres jugar-->
-    <div id="enterName" class="hidden">
-        <span>¿Quieres jugar?</span></div>
-    <br>
-        <input id="radioYes" name="opJugar" type="radio" value="si" >Si</input>
-    </br>
-        <input id="radioNo" name="opJugar" type="radio" value="no" >No</input>
-    </br>
-    <button id="botonSiguiente" >Siguiente</button>
+    <!--formaulario de quieres jugar.-->
+    <div id="formuGetGame" class="hiden">
+        <span>¿Quieres jugar?</span><br>
+        <input id="radioYes"  name="opJugar" type="radio" value="si" >Si</input>
+        </br>
+        <input id="radioNo"  name="opJugar" type="radio"  value="no" >No</input>
+        </br>
+        <button id="btnGetGame" >Siguiente</button>
     </div>
-
-    <div id="formQuestion1" class="hiden">
+    <div id="formuquestion1" class="hiden">
         <span>¿Han egresado hombres de Laboratoria?</span><br>
         <input id="q1Yes"  name="opJugar" type="radio" value="si" >Si</input>
         </br>
         <input id="q1No"  name="opJugar" type="radio"  value="no" >No</input>
         </br>
-        <button id="buttonQ1" >Siguiente</button>
+        <button id="btnGetQ1" >Siguiente</button>
     </div>
-    <div id="formQuestion2" class="hiden">
+    <div id="formuquestion2" class="hiden">
         <span>¿Hay una sede de laboratoria en Concepción?</span><br>
         <input id="q2Yes"  name="opJugar" type="radio" value="si" >Si</input>
         </br>
         <input id="q2No"  name="opJugar" type="radio"  value="no" >No</input>
         </br>
-        <button id="buttonQ2" >Siguiente</button>
+        <button id="btnGetQ2" >Siguiente</button>
     </div>
 
-    <div id="formQuestion3" class="hiden">
+    <div id="formuquestion3" class="hiden">
         <span>¿La duración del bootcamp es de 6 meses?</span><br>
         <input id="q3Yes"  name="opJugar" type="radio" value="si" >Si</input>
         </br>
         <input id="q3No"  name="opJugar" type="radio"  value="no" >No</input>
         </br>
-        <button id="buttonQ3" >Enviar Respuestas</button>
+        <button id="btnGetQ3" >Enviar Respuestas</button>
     </div>
 
     <div id="Resultado" class="hiden" >
@@ -81,11 +80,6 @@
         <p id="warningMessage"></p>
     </div>
 
-
-
-
-
-    
     <script src="app.js"></script>
 </body>
 
