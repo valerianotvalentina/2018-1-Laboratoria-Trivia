@@ -1,5 +1,5 @@
 window.onload = function() {
-    var name = prompt("¿cuál es tu nombre?");
+    /* var name = prompt("¿cuál es tu nombre?");
     document.getElementById("name").innerText = name;
 
     var wantToPlay = prompt("¿quieres jugar? s/n");
@@ -36,4 +36,5 @@ window.onload = function() {
     } else {
         document.getElementById("warningMessage").innerText = "Bueno Chao";
     }
+    */
 }
