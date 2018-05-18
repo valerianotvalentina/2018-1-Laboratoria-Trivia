@@ -4,7 +4,7 @@ window.onload = function() {
     document.getElementById("btnGetName").onclick = function() {
         name = document.getElementById("txtName").value;
         if(name == ""){
-            document.getElementById("warningMessage").innerText = "Tienes que escribir un nombre!!!";
+            document.getElementById("warningMessage").innerText = "Tienes que escribir tu nombre para poder jugar";
             
         }else{
             document.getElementById("name").innerText = name;
@@ -21,11 +21,12 @@ window.onload = function() {
             document.getElementById("formuquestion1").style.display = "block";
             
 
+            
         }else if (document.getElementById("radioNo").checked == true ){
             document.getElementById("formuGetGame").style.display = "none";
             document.getElementById("Resultado").style.display = "block";
         }else{
-            document.getElementById("warningMessage").innerText = "Tienes que elejir una opción!!!";
+            document.getElementById("warningMessage").innerText = "Tienes que elegir una opción";
         }
     };
     //¿han egresado hombres en Laboratoria?
@@ -49,7 +50,7 @@ window.onload = function() {
                         "<p>No han egresado hombres</p>"
                     "</div>";            
         }else{
-            document.getElementById("warningMessage").innerText = "Tienes que elejir una opción!!!";
+            document.getElementById("warningMessage").innerText = "Tienes que elegir una opción";
         }
     };
     //¿hay laboratoria en concepción?
@@ -73,7 +74,7 @@ window.onload = function() {
                         "<p>No hay laboratoria en concepción</p>"
                     "</div>";            
         }else{
-            document.getElementById("warningMessage").innerText = "Tienes que elejir una opción!!!";
+            document.getElementById("warningMessage").innerText = "Tienes que elegir una opción";
         }
     };     
     //¿la duracion del bootcamp es de 6 meses?
@@ -97,7 +98,7 @@ window.onload = function() {
                         "<p>Si, la duracion del bootcamp es de 6 meses</p>"
                     "</div>";            
         }else{
-            document.getElementById("warningMessage").innerText = "Tienes que elejir una opción!!!";
+            document.getElementById("warningMessage").innerText = "Tienes que elegir una opción";
         }
     };     
     //var name = prompt("¿cuál es tu nombre?");
@@ -138,4 +139,5 @@ window.onload = function() {
         document.getElementById("warningMessage").innerText = "Bueno Chao";
     }
 */
+
 }
