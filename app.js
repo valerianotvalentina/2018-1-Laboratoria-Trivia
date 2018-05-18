@@ -21,7 +21,6 @@ window.onload = function() {
             document.getElementById("formuquestion1").style.display = "block";
             
 
-            
         }else if (document.getElementById("radioNo").checked == true ){
             document.getElementById("formuGetGame").style.display = "none";
             document.getElementById("Resultado").style.display = "block";
